@@ -1,0 +1,51 @@
+Total Review è un aggregatore di recensioni online su prodotti hi-tech. 
+La pagina iniziale mostra il form per effettuare il login e un pulsante per effettuare la registrazione al sistema.
+Nella home page sono presenti 2 menu. Il menu superiore contiene il link per effettuare il logout e, nel caso si disponga dei permessi necessari, mostra un link per accedere alle funzionalità amministrative.
+Il menu laterale mostra un link alla pagina di aiuto e un link per esportare le schede visualizzate in formato xml.
+Nella parte centrale è presente una tabella dove vengono mostrate le ultime 5 schede inserite nel sistema. Questa tabella viene aggiornata con le schede inserite dall’utente corrente, quando viene premuto il pulsante “Le mie recensioni”.
+Nella parte centrale superiore sono presenti 3 pulsanti, per le 3 principali features della web app.
+
+Il pulsante “inserisci recensione” attiva il form di inserimento della recensione; ogni recensione è composta da: 
+Nome del prodotto; 
+Link alla recensione; 
+Link alla pagina del prodotto sul sito del produttore o su uno store online; 
+Commento sulla recensione che si sta catalogando;
+Categoria del prodotto (Hardware/Software).
+
+Il pulsante “le mie recensioni” aggiorna la tabella in basso con le recensioni inserite dall’utente corrente.
+Il pulsante “cerca” mostra un form per effettuare la ricerca delle schede all’interno del sistema, mostrando i risultati nella tabella in basso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

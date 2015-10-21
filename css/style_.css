@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document for TotalReview */
+
+html{margin:0;
+	height: 100%;}
+
+body{font-family: "Trebuchet MS", Verdana, sans-serif; 
+     font-size: 16px; 
+	 background-repeat: repeat;
+	 background-color: white; 
+	 color: #696969; 
+	 height: 100%;}
+
+.container {
+	min-height: 100%;
+    height: auto !important; /* Questa proprieta' e la successiva servono per garantire una corretta visualizzazione del footer con versioni obsolete di IE*/
+    height: 100%;
+	margin: 0 auto -117px; }
+
+/*L'elemento push e' un elemento nascosto, che serve per una corretta visualizzazione del footer a fondo pagina*/
+.push{
+	height:50px; 
+/*IMPORTANTE: Questo valore deve essere uguale all'altezza del footer, comprensiva di eventuali margini*/
+}
+ 
+#header{background:url(../img/supbg.gif) repeat-x; 
+        height:110px; 
+		border-bottom:7px solid #C1C1C1;} 
+ 
+#headsup {
+  background-color: rgb(47, 84, 155);
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 410px;
+  height: 110px;
+  border-radius: 10px 10px 10px 10px;
+ }
+
+
+/*LOGIN CONFIGURATION PAGE*/
+.form-login {
+	max-width: 330px;
+	margin: 100px auto 0;
+	background: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.form-login h2.form-login-heading {
+	margin: 0;
+	padding: 25px 20px;
+	text-align: center;
+	background: #68dff0;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.login-wrap {
+	padding: 20px;
+}
+.login-wrap .registration {
+	text-align: center;
+}
+.login-social-link {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+#loginArea { 
+  
+  background-color: #FF9966;
+  padding:5px 5px 5px 5px;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 410px;
+  height: 200px;
+  position: relative;
+  top: 250px;
+  border:1px solid black;
+  text-align:center;
+  
+}
+
+#regArea { 
+  
+  background-color: #43BF43;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 410px;
+  height: 300px;
+  position: relative;
+  top: 250px;
+  border:1px solid black;
+}
+
+#menuArea{
+  background-color: #43BF43;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 410px;
+  height: 300px;
+  position: relative;
+  top: 250px;
+  border:1px solid black;
+}
+
+/*MENU*/
+
+div,
+input {
+  font-family: arial, verdana;
+  font-size: 12px;  
+}
+.corretto,
+.errore {
+  padding: 3px;
+  text-align: center;
+}
+.corretto,
+.errore {
+  width: auto;
+  font-weight: bold;
+  border: 1px solid #349534;
+  background: #C9FFCA;
+  color: #008000;
+}
+.errore {
+  border: 1px solid #CC0000;
+  background: #F7CBCA;
+  color: #CC0000;
+}
+
+
+
+
+/*FOOTER*/
+
+.footer{
+    height: 50px; 
+    clear: both;
+	background:none;
+    width:100%;
+    padding: auto;
+	text-align:center;
+}
+
+
+

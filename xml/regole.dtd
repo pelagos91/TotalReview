@@ -1,0 +1,9 @@
+<!ELEMENT recensioni (recensione+)>
+<!ELEMENT recensione (nome,link_recensione,link_prodotto,commento,categoria,data,autore)>
+<!ELEMENT nome (#PCDATA)> 
+<!ELEMENT link_recensione (#PCDATA)>
+<!ELEMENT link_prodotto (#PCDATA)> 
+<!ELEMENT commento (#PCDATA)> 
+<!ELEMENT categoria (#PCDATA)> 
+<!ELEMENT data (#PCDATA)> 
+<!ELEMENT autore (#PCDATA)> 
